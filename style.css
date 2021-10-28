@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 30px 40px 30px 40px;
+}
+
+.container .box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.container .box .dream{
+	display: flex;
+	flex-direction: column;
+	width: 33.5%
+}
+
+.container .box .dream img{
+	width: 100%; padding: 15px; border-radius: 5px;
+}
+	
